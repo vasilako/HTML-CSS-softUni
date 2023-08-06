@@ -1,0 +1,13 @@
+.ol--roman{
+    list-style-type: upper-roman;
+}
+.ol--alphabet{
+    list-style-type: lower-alpha;
+}
+
+.ul--circle{
+    list-style-type: circle;
+}
+.ul--circle-fiel{
+    list-style: outside;
+}

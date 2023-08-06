@@ -1,0 +1,29 @@
+body{
+    text-transform: uppercase;
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vh ;
+}
+
+header, main, aside, footer{
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    color: #000;
+}
+
+header, footer{
+    flex-basis: 100%;
+    justify-items: right;
+}
+
+main{
+    flex: 8 1 30%;
+}
+
+aside{
+    flex: 1 1 20%;
+}

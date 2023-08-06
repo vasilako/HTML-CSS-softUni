@@ -1,0 +1,43 @@
+body{
+    margin: unset;
+    padding: unset;
+    background-color: grey;
+}
+header{
+    background-color: rebeccapurple;
+    height: 100px;
+
+}
+nav{
+    list-style: none;
+    display: flex;
+    height: 100px;
+    max-width: 80%;
+    min-width: 50%;
+    margin: 0 auto;
+}
+
+nav li{
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin: auto;
+
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+a:active {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: cornflowerblue;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: #ff9671;
+}
+ul, li{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+img{
+    /*width: 100%;*/
+    /*height: auto;*/
+}
+ul{
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+li{
+
+    flex: 1 1 auto;
+    border: 7px solid black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: inset 1px 3px 32px -12px rgba(0,0,0,0.71);
+    -moz-box-shadow: inset 1px 3px 32px -12px rgba(0,0,0,0.71);
+    box-shadow: inset 1px 3px 32px -12px rgba(0,0,0,0.71);
+
+}

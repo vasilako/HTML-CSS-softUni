@@ -1,0 +1,41 @@
+body{
+    font-family: proxima-nova, "Helvetica Neue, Helvetica, Arial", sans-serif;
+}
+nav{
+    width: 200px;
+    background-color: #f5f5f5;
+    padding: 25px;
+    border: 1px solid #e3e3e3;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+li{
+    line-height: 25px;
+    margin-left: -15px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #c83025}
+button{
+    padding: 4px 8px;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid;
+    cursor: pointer;
+}
+button.shopping{
+    background-color: olive;
+    border-color: olivedrab;
+}
+
+button.info{
+    background-color: dodgerblue;
+    border-color: #4268e3;
+}
+button.delete{
+    background-color: firebrick;
+    border-color: darkred;
+
+}

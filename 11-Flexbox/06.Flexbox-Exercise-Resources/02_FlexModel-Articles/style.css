@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 20vh;
+
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+p{
+    font-family: Georgia, Serif;
+    line-height: 1.2;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+
+}
+section{
+    background-color: red;
+    flex-direction: row;
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+main{
+    background-color: red;
+    width: 700px;
+    margin: 0px auto;
+    padding: 1px 20px;
+}
+
+article{
+    background-color: rebeccapurple;
+    border: 1px solid blue;
+    margin: 15px 0px;
+    padding: 15px 30px;
+}
+
+h1{
+    font-size: 30px;
+}
+section article p{
+    color: #f9f7cf;
+}
+section article h1{
+    color: #f9f7cf;
+}
+section article h2{
+    color: #f9f7cf;
+}

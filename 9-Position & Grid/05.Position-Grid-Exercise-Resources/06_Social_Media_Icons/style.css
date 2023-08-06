@@ -1,0 +1,40 @@
+ul{
+    list-style: none;
+}
+ul li{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:darkgrey;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.fa-facebook-square:hover{
+    color: #1e1ed2;
+}
+
+.fa-twitter:hover{
+    color: #2196F3;
+}
+
+.fa-google-plus:hover{
+    color: red;
+}
+
+.fa-linkedin:hover{
+    color: mediumblue;
+}
+
+.fa-instagram:hover{
+    color: olivedrab;
+}

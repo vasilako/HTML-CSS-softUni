@@ -1,0 +1,14 @@
+section{
+    width: 480px;
+    background-color: #f9f7cf;
+    margin: auto;
+    padding: 20px;
+}
+header{
+    background-color: #f2dcbb;
+    padding: 10px;
+}
+footer {
+    background-color: #f2dcbb;
+    padding: 10px;
+}

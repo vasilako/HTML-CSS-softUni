@@ -1,0 +1,38 @@
+div.viewport{
+    position: relative;
+}
+
+section{
+    width: 100%;
+    height: 700px;
+}
+
+.card1{
+    background-color: #d5384d;
+
+}
+.card2{
+    background-color: #ff9671;
+}
+
+img{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+i{
+    color: white;
+}
+.fa-star{
+    position: absolute;
+    top: calc(50% + 225px);
+    left: calc(50% + 137px);
+}
+
+.fa-link{
+    position: absolute;
+    top: calc(50% + 85px);
+    left: calc(50% + 137px);
+}

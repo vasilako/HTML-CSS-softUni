@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 60px;
+}
+
+ul {
+    flex-basis: 25%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li{
+    flex: 1 1 auto;
+    }
+
+h2{
+    padding: 50px 0 20px 50px;
+}
+
+p{
+    padding: 10px 50px;
+}
+
