@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter, sans-serif;
+}
+
+nav{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    height: 6rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    list-style: none;
+}
+
+
+.buy-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero{
+    position: relative;
+    object-fit: cover;
+}
+
+.hero-title{
+    font-size: 4rem;
+    display: block;
+    width: 550px;
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+.hero-description{
+    color: white;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 400px;
+    top: 700px;
+    display: block;
+    width: 700px;
+}
+.get-started{
+    position: absolute;
+    left: 400px;
+    top: 885px;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.datos{
+    text-align: center;
+    padding: 1% 5% 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 50px;
+
+}
+
+.data h3{
+    font-size: 2rem;
+    padding: 2rem;
+    color: #ff7d4c;
+}
+.data h4{
+    font-size: 1rem;
+}
+
+.data p{
+    font-size: 0.95rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100px;
+    background-color: #d9d9d9;
+}
+.fab, .fas{
+    font-size: 2rem;
+}
+
+.enterprises-container{
+    background-color: #d9d9d9;
+}
+
+.enterprise-row{
+
+    background-color: #d9d9d9;
+    display: flex;
+    gap: 50px;
+    padding: 50px 100px 50px 50px;
+    flex-basis: 300px;
+    align-items: center;
+}
+.enterprise{
+    width: 400px;
+}
+.enterprise-row h6{
+    padding-left: 30px;
+}
+.enterprise-row h1{
+    padding: 30px;
+
+}
+.enterprise-content p{
+    padding: 10px 30px;
+}
+.read-more{
+    font-weight: bold;
+}
+
+.pricings{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px;
+    column-gap: 20px;
+}
+.pricing-plan{
+    height: 400px;
+}
+
+
+.free {
+    padding: 10px;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #ff7d4c;
+    color: black;
+}
+.pro{
+    padding: 10px;
+    line-height: 3rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.free ul{
+    width: 400px;
+    display: block;
+}
+
+.pro ul{
+    width: 400px;
+    display: block;
+}
+
+.more-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.more-btn.black{
+    background-color: black;
+    color: white;
+}
+.more-btn.white{
+    background-color: white;
+    color: black;
+}
+.free h3, .free h2, .pro h3, .pro h2 {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.plans h3{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 80px;
+}
+
+.plans{
+    padding-left: 50px;
+    padding-right: 200px;
+}
